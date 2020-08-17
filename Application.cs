@@ -41,8 +41,8 @@ namespace Lab8_5_RealityTVStar
 
         public void Submitted()
         {
-            this.AppSubmitted = true;
-            Console.WriteLine("Application submitted.");
+                this.AppSubmitted = true;
+                Console.WriteLine("Application submitted.");
         }
 
         public virtual void Accepted()
@@ -59,7 +59,12 @@ namespace Lab8_5_RealityTVStar
 
 /*      
 
-
+ if(this.AppSubmitted == true)
+            {
+                this.AppAccepted = true;
+                Console.WriteLine("Congratulations, "+ FirstName + " " + LastName + " you've been accepted to Dream House Hunters! \n");
+            }
+            Console.WriteLine(FirstName + "We do not have an application for you.");
  
  
  */

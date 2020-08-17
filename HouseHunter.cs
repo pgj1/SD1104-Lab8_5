@@ -32,8 +32,16 @@ namespace Lab8_5_RealityTVStar
 
         public override void Accepted()
         {
-            this.AppAccepted = true;
-            Console.WriteLine("Congratulations, "+ FirstName + " " + LastName + " you've been accepted to Dream House Hunters! \n");
+           
+            if(this.AppSubmitted == true)
+            {
+                this.AppAccepted = true;
+                Console.WriteLine("Congratulations, "+ FirstName + " " + LastName + " you've been accepted to Dream House Hunters! \n");
+            }
+            else
+            { 
+            Console.WriteLine(FirstName + " we do not have an application for you.");
+            }
         }
 
 

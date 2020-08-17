@@ -14,7 +14,7 @@ namespace Lab8_5_RealityTVStar
                 "Omar", "Smith", "02/04/1975", "111 Bravo Way", "Los Angeles", "California", 90001, "omar.smith@hotmail.com", "888-233-1234");
 
 
-            Console.WriteLine("************** Dream House Hunter ********************");
+            Console.WriteLine("************** Dream House Hunters ********************");
             //Submit & accept application
             HContestant1.Submitted();
             HContestant1.Accepted();

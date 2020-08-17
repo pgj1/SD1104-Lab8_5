@@ -24,16 +24,22 @@ namespace Lab8_5_RealityTVStar
 
         public override void Accepted()
         {
-           // base.Accepted();
-            this.AppAccepted = true;
-            Console.WriteLine("Congratulations, "+ FirstName + " " + LastName + " you've been accepted to Paradise Island! \n");
+            if (this.AppSubmitted == true)
+            {
+                this.AppAccepted = true;
+                Console.WriteLine("Congratulations, " + FirstName + " " + LastName + " you've been accepted to Paradise Island! \n");
+            }
+            else { 
+            Console.WriteLine(FirstName + " we do not have an application for you.");
+            }
         }
 
+              
+           
+        }
+        
 
-
-
-
-    }
+  
 }
 
 
